@@ -38,13 +38,22 @@
       <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="40">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navmenu.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="20180425234639_create_collections.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20180425234639_create_collections.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navmenu.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_navmenu.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
@@ -72,6 +81,8 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navmenu.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180425233728_create_profiles.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180425234639_create_collections.rb" />
       </list>
     </option>
   </component>
@@ -165,6 +176,12 @@
               <item name="pinterest-clone" type="b2602c69:ProjectViewProjectNode" />
               <item name="pinterest-clone" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinterest-clone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinterest-clone" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,12 +315,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524697172359</updated>
-      <workItem from="1524697173551" duration="1954000" />
+      <workItem from="1524697173551" duration="2806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1954000" />
+    <option name="totallyTimeSpent" value="2806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1316" y="23" width="1244" height="1338" extended-state="0" />
@@ -315,8 +332,8 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32932693" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20418006" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32932693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20418006" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932693" />
@@ -366,17 +383,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_navmenu.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180425233728_create_profiles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180425234639_create_collections.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>

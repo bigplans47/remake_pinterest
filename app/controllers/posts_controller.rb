@@ -20,17 +20,17 @@ class PostsController < ApplicationController
   # end
 
   def show
-    # @collection = Collection.find(params[:id])
+    # @collection = Collection.find(params[:post_id])
     @post = Post.find(params[:id])
   end
 
   def edit
-    @collection = Collection.find(params[:post_id])
+    @collection = Collection.find(params[:collection_id])
     @post = Post.find(params[:id])
   end
 
   def update
-    @collection = Collection.find(params[:post_id])
+    @collection = Collection.find(params[:collection_id])
     @post = Post.find(params[:id])
     if @post.update(post_params)
       flash[:notice] = 'Editted post'

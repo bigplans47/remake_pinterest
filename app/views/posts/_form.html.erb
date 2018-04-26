@@ -1,0 +1,9 @@
+<%= render("layouts/errors", :object => @post) %>
+
+<%= form_for [@collection, @post] do |f| %>
+  <%= f.label :caption %>
+  <%= f.text_field :caption %>
+  <%= f.label :location %>
+  <%= f.text_field :location %>
+  <p><%= f.submit %></p>
+<% end %>

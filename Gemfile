@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.1'
+ruby '2.4.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
@@ -63,7 +63,7 @@ gem 'capybara'
 gem 'shoulda-matchers'
 gem 'faker'
 gem 'devise'
-gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
+gem "paperclip"
 gem 'materialize-sass', '~> 1.0.0.beta'
 gem "factory_bot_rails", "~> 4.0"
 gem "simplecov", require: false
